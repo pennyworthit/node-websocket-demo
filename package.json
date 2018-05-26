@@ -1,0 +1,22 @@
+{
+  "name": "websocket-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "server": "node ./build/server/server.js",
+    "client": "node ./build/client/client.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^5.1.1",
+    "typescript": "^2.8.3"
+  }
+}

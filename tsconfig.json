@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./build",
+    "rootDir": "./src",
+    "allowJs": false,
+    "target": "es6",
+    "sourceMap": true,
+    // "smartStep": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+  },
+  "include": [
+    "./src/**/*",
+    // "./test/**/*",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
